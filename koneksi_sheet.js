@@ -1,7 +1,7 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
-import {google} from 'googleapis';
-const sheets = google.sheets('v4');
-export let auth
+//import {google} from 'googleapis';
+//const sheets = google.sheets('v4');
+//export let auth
 export let doc
 let credentials = {
 	 client_email: (typeof process !== 'undefined'? process.env :
